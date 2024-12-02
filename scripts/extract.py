@@ -1,11 +1,12 @@
 import pandas as pd
-import numpy as np
 import requests as rq
-from io import BytesIO
-from pyarrow.lib import ArrowInvalid
 import json
 import pymysql
 import psycopg2
+import pyarrow.parquet as pq
+
+from io import BytesIO
+from pyarrow.lib import ArrowInvalid # Type Error
 
 
 
@@ -36,7 +37,8 @@ def extract_from__api(url, data_format='json'):
         # Lire le fichier Parquet directement depuis la mémoire
         try:
             # Lire le fichier Parquet
-            return pd.read_parquet(BytesIO(response.content))
+            
+            return pq.read_table(BytesIO(response.content))
         except ArrowInvalid as e:
             print(f"Erreur : {e} \nFormat de données incorrect")
 
@@ -68,10 +70,16 @@ def extract_from__rdbms(db_type = 'mysql', connection_info=None, schema=None):
         
         cursor = conn.cursor()
         cursor.execute(f"SELECT * FROM {connection_info['table_name']}")
-        df = pd.DataFrame(cursor.fetchall(), columns=cursor.description)
+        column_names = [col[0] for col in cursor.description]
+        df = pd.DataFrame(cursor.fetchall(), columns=column_names)
         conn.close()
         return df
     
     except Exception as e:
         print(f"Error extracting data from {connection_info['table_name']}: {e}")
         return None
+
+#url = 'https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-09.parquet'
+#print(url)
+#url= 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=demo&datatype=csv'
+#extract_from__api(url=url, data_format='csv')
