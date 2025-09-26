@@ -47,7 +47,17 @@ def extract_from__api(url, data_format='json'):
 
 
 
-def extract_from__rdbms(db_type = 'mysql', connection_info=None, schema=None):
+def extract_from__rdbms(
+        db_type = 'mysql'
+        , connection_info = {
+            "user": None,
+            "password": None,
+            "host": None, 
+            "port": None,
+            "database": None,
+            "table_name": None
+        }
+    ):
     
     try:
         if db_type == "postgresql":

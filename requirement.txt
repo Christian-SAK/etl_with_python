@@ -13,4 +13,5 @@ pyarrow
 google-cloud-storage
 google-cloud-bigquery
 pymysql
-psycopg2
+psycopg2-binary
+python-dotenv

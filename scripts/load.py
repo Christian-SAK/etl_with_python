@@ -28,7 +28,19 @@ def get_sql_type(pd_type):
     return mapping.get(str(pd_type), 'TEXT')
 
 
-def load_to__rdbms(df, db_type = 'mysql', connection_info=None, schema=None):
+def load_to__rdbms(
+        df
+        , db_type = 'mysql' 
+        , connection_info = {
+            "user": None,
+            "password": None,
+            "host": None, 
+            "port": None,
+            "database": None,
+            "table_name": None
+        }
+        , schema=None
+    ):
     
     """
     Charge un DataFrame Pandas dans une table de base de données spécifiée.
