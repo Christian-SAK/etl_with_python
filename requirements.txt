@@ -15,3 +15,5 @@ google-cloud-bigquery
 pymysql
 psycopg2-binary
 python-dotenv
+apache-airflow
+boto3
