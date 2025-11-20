@@ -17,3 +17,6 @@ psycopg2-binary
 python-dotenv
 apache-airflow
 boto3
+dlt
+dlt[s3]
+sqlalchemy-doris
