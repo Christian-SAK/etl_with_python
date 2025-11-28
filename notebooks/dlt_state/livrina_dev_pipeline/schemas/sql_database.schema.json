@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "version_hash": "bzriIxNigffudx7CibsFBpUaSnf5/8BTQ0jYv6p6he8=",
+  "version": 2,
+  "version_hash": "ujuEiMkSv06SINsPhSh7jKKzaPvM6WiWPpnoGJyIS7c=",
   "engine_version": 11,
   "name": "sql_database",
   "tables": {
@@ -107,7 +107,7 @@
         }
       },
       "write_disposition": "append",
-      "file_format": "csv",
+      "file_format": "jsonl",
       "name": "model_has_roles",
       "resource": "model_has_roles",
       "x-normalizer": {
@@ -157,7 +157,7 @@
         }
       },
       "write_disposition": "append",
-      "file_format": "csv",
+      "file_format": "jsonl",
       "name": "roles",
       "resource": "roles",
       "x-normalizer": {
@@ -308,7 +308,7 @@
         }
       },
       "write_disposition": "append",
-      "file_format": "csv",
+      "file_format": "jsonl",
       "name": "users",
       "resource": "users",
       "x-normalizer": {
@@ -403,7 +403,6 @@
     }
   },
   "previous_hashes": [
-    "ujuEiMkSv06SINsPhSh7jKKzaPvM6WiWPpnoGJyIS7c=",
     "XnbKpnlCuMOE45/cecEO1p3mBaJLoYKeN8H7X572MF8=",
     "jLSvEermociVPDA4ugX9zpOhwuIOyveZ44O5q/Sr4AQ="
   ]
