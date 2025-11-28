@@ -1,0 +1,13 @@
+{"id":1,"name":"Admin","guard_name":"web","created_at":"2020-06-30T12:49:04","updated_at":"2020-06-30T12:49:04","_dlt_load_id":"1763930971.966971","_dlt_id":"40/ma4X75yFEPA"}
+{"id":2,"name":"Delivery Guy","guard_name":"web","created_at":"2020-06-30T12:49:04","updated_at":"2020-06-30T12:49:04","_dlt_load_id":"1763930971.966971","_dlt_id":"WpEkxqd49ldYlA"}
+{"id":3,"name":"Store Owner","guard_name":"web","created_at":"2020-06-30T12:49:04","updated_at":"2020-06-30T12:49:04","_dlt_load_id":"1763930971.966971","_dlt_id":"q9h+UjkcOKwDlQ"}
+{"id":4,"name":"Customer","guard_name":"web","created_at":"2020-06-30T12:49:04","updated_at":"2020-06-30T12:49:04","_dlt_load_id":"1763930971.966971","_dlt_id":"YWzxtwjRYkDUgg"}
+{"id":5,"name":"Manager COMM","guard_name":"web","created_at":"2022-05-15T05:19:39","updated_at":"2024-02-20T10:32:19","_dlt_load_id":"1763930971.966971","_dlt_id":"1k/WgL2oQ4z69w"}
+{"id":6,"name":"Designer","guard_name":"web","created_at":"2022-05-15T05:23:40","updated_at":"2024-04-30T19:31:57","_dlt_load_id":"1763930971.966971","_dlt_id":"cG4TBy5zm2dpfQ"}
+{"id":7,"name":"Trésorier","guard_name":"web","created_at":"2022-05-15T05:25:59","updated_at":"2022-05-15T05:25:59","_dlt_load_id":"1763930971.966971","_dlt_id":"tnu31RplzMDLkQ"}
+{"id":8,"name":"Support Fonctionnel","guard_name":"web","created_at":"2022-06-16T08:38:46","updated_at":"2023-04-22T13:34:03","_dlt_load_id":"1763930971.966971","_dlt_id":"Q9xgXcrS1BvElA"}
+{"id":9,"name":"COMEX","guard_name":"web","created_at":"2022-08-13T10:31:49","updated_at":"2022-08-13T10:31:49","_dlt_load_id":"1763930971.966971","_dlt_id":"RX2vkWZ0LGy6HA"}
+{"id":10,"name":"Super Manager","guard_name":"web","created_at":"2023-04-22T13:24:11","updated_at":"2023-04-22T13:24:11","_dlt_load_id":"1763930971.966971","_dlt_id":"wi4ZIISZwszUlg"}
+{"id":11,"name":"Manager Operation","guard_name":"web","created_at":"2023-11-16T18:57:07","updated_at":"2024-02-20T10:33:01","_dlt_load_id":"1763930971.966971","_dlt_id":"v4ocNVJ2bL65Sg"}
+{"id":12,"name":"Support Production","guard_name":"web","created_at":"2024-02-20T10:17:56","updated_at":"2024-02-20T10:17:56","_dlt_load_id":"1763930971.966971","_dlt_id":"yDUisNllAJ3LMA"}
+{"id":13,"name":"Comptable","guard_name":"web","created_at":"2024-03-30T12:36:27","updated_at":"2024-03-30T12:36:27","_dlt_load_id":"1763930971.966971","_dlt_id":"+iGxM1WEwCuSdA"}
